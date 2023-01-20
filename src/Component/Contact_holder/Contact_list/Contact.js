@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { Navigate } from "react-router-dom";
 import "./Contact.css"
 
 export default function Contact({nom,id}) {
@@ -17,12 +18,21 @@ export default function Contact({nom,id}) {
     }
     dispatch(action);
   }
+  const [Navigator,setNavigator] = useState(<></>)
+  const view = ()=>{
+    dispatch({
+      type:"VIEW",
+      payload:id
+    })
+    setNavigator(<Navigate to={"view"}/>)
+  }
 
 
   return (
-    <div className="Contact" key={id}>
+    <div className="Contact" key={id} onClick={()=>!removeSelected ? view() : {}}>
       <input type={"checkbox"} checked={removingArr.includes(id)} style={{"display":removeSelected ? "inline" : "none"}} onChange={select} />
       {nom}
+      {Navigator}
     </div>
   )
 }

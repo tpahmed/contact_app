@@ -3,7 +3,7 @@
     height: 13%;
     width: 95%;
     left: 2.5%;
-    top: 2%;
+    top: 3%;
     border: 0.1px solid black;
     border-radius: 1em;
 }
@@ -25,6 +25,15 @@ li > button{
     scale: 150%;
     cursor: pointer;
 }
-.AddLink{
-    text-decoration: none;
+.searchInp{
+    position: inherit;
+    background-color: rgb(202, 202, 202);
+    border: 0.1px solid black;
+    border-radius: 1em;
+    width: 93%;
+    left: 2.5%;
+    top: 17.5%;
+    height: 7.5%;
+    font-size: larger;
+    padding-left: 2%;
 }
