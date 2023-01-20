@@ -1,0 +1,10 @@
+.Add_holder{
+    position: absolute;
+    top: 13%;
+    width: 30%;
+    height: 72.5%;
+    left: 35%;
+    border-radius: 1em;
+    border: .1px solid black;
+    background-color: rgb(202, 202, 202);
+}

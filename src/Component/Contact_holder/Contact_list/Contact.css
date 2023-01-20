@@ -1,0 +1,22 @@
+.Contact{
+    user-select: none;
+    margin-left: 10%;
+    margin: 5%;
+    border: .1px solid black;
+    height: 1em;
+    max-height: 1em;
+    border-radius: 1em;
+    padding: 3%;
+    color: rgb(224, 224, 224);
+    background-color: rgb(82, 89, 99);
+    cursor: pointer;
+}
+.DELETE{
+    position: absolute;
+    font-size: medium;
+    cursor: pointer;
+    right: 10%;
+    background: none;
+    border: none;
+    color: rgb(206, 10, 10);
+}

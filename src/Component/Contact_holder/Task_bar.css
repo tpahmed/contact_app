@@ -1,0 +1,30 @@
+.Task_bar{
+    position: inherit;
+    height: 13%;
+    width: 95%;
+    left: 2.5%;
+    top: 2%;
+    border: 0.1px solid black;
+    border-radius: 1em;
+}
+.Task_bar > ul {
+    list-style: none;
+    width: 100%;
+}
+.Task_bar > ul > li{
+    display: inline;
+    width: 20%;
+    margin: 6%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+li > button{
+    border: none;
+    border-radius: 1em;
+    background-color: rgb(202, 202, 202);
+    scale: 150%;
+    cursor: pointer;
+}
+.AddLink{
+    text-decoration: none;
+}
