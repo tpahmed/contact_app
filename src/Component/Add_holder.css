@@ -37,3 +37,21 @@
     top: 60%;
     left: 40%;
 }
+@media (max-width:1020px) {
+    .Add_holder{
+        width: 50%;
+        left: 25%;
+    }
+}
+@media (max-width:500px) {
+    .Add_holder{
+        width: 70%;
+        left: 15%;
+    }
+}
+@media (max-width:400px) {
+    .Add_holder{
+        width: 80%;
+        left: 10%;
+    }
+}

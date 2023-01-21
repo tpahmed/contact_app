@@ -29,3 +29,21 @@
 h4{
     margin-left: 5%;
 }
+@media (max-width:1020px) {
+    .View_holder{
+        width: 50%;
+        left: 25%;
+    }
+}
+@media (max-width:500px) {
+    .View_holder{
+        width: 70%;
+        left: 15%;
+    }
+}
+@media (max-width:400px) {
+    .View_holder{
+        width: 80%;
+        left: 10%;
+    }
+}
